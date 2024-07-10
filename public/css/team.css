@@ -1,0 +1,52 @@
+/* public/css/home.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    rgb(194, 110, 110),
+    rgb(201, 201, 87),
+    rgb(42, 139, 132)
+  );
+  width: 20%;
+  height: 100%;
+  float: left;
+  position: fixed;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border: 10px;
+  border-radius: 1%;
+}
+
+.sidebar h4 {
+  font-weight: bolder;
+  color: #c71717;
+  padding: 10%;
+}
+
+.sidebar a {
+  display: block;
+  color: #49005d;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: bisque;
+  color: rgb(188, 112, 19);
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: bisque;
+  color: #987c70;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}

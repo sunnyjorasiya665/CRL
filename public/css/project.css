@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    rgb(194, 110, 110),
+    rgb(201, 201, 87),
+    rgb(42, 139, 132)
+  );
+  width: 20%;
+  height: 100%;
+  float: left;
+  position: fixed;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border: 10px;
+  border-radius: 1%;
+}
+
+.sidebar h4 {
+  font-weight: bolder;
+  color: #c71717;
+  padding: 10%;
+}
+
+.sidebar a {
+  display: block;
+  color: #49005d;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: bisque;
+  color: rgb(188, 112, 19);
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: bisque;
+  color: #987c70;
+}
+
+.content-container {
+  margin-left: 20%;
+  padding: 16px;
+  overflow: auto;
+}
+
+.content {
+  padding: 16px;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input,
+form textarea,
+form select,
+form button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.elementor-6101
+  .elementor-element.elementor-element-cade122
+  > .elementor-element-populated {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #cecece;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0px 0px 0px 0px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+  padding: 10px 10px 10px 10px;
+}
+.elementor-column-gap-default
+  > .elementor-column
+  > .elementor-element-populated {
+  padding: 10px;
+}
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
+  display: flex;
+}
+.elementor-widget-wrap {
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.elementor *,
+.elementor :after,
+.elementor :before {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+}
+user agent stylesheet div {
+  display: block;
+  unicode-bidi: isolate;
+}
+.elementor-element {
+  --widgets-spacing: 20px 20px;
+}
+.elementor-element,
+.elementor-lightbox {
+  --swiper-theme-color: #000;
+  --swiper-navigation-size: 44px;
+  --swiper-pagination-bullet-size: 6px;
+  --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+.elementor-element {
+  --flex-direction: initial;
+  --flex-wrap: initial;
+  --justify-content: initial;
+  --align-items: initial;
+  --align-content: initial;
+  --gap: initial;
+  --flex-basis: initial;
+  --flex-grow: initial;
+  --flex-shrink: initial;
+  --order: initial;
+  --align-self: initial;
+  flex-basis: var(--flex-basis);
+  flex-grow: var(--flex-grow);
+  flex-shrink: var(--flex-shrink);
+  order: var(--order);
+  align-self: var(--align-self);
+}
